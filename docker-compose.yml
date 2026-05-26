@@ -1,0 +1,35 @@
+services:
+  db_comex:
+    image: postgres:15
+    container_name: postgres_comexstat
+    restart: always
+    environment:
+      POSTGRES_USER: professor_iesb
+      POSTGRES_PASSWORD: senha_comex
+      POSTGRES_DB: comex_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./postgres_data:/var/lib/postgresql/data
+      - ./data:/tmp/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U professor_iesb -d comex_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  dashboard:
+    build: .
+    container_name: comex_dashboard
+    restart: always
+    ports:
+      - "8501:8501"
+    environment:
+      - DB_HOST=db_comex
+      - DB_PORT=5432
+      - DB_NAME=comex_db
+      - DB_USER=professor_iesb
+      - DB_PASSWORD=senha_comex
+    depends_on:
+      db_comex:
+        condition: service_healthy
