@@ -1,6 +1,6 @@
 databases:
   - name: comex-db
-    plan: starter
+    plan: free
     databaseName: comex_db
     user: professor_iesb
 
@@ -8,7 +8,7 @@ services:
   - type: web
     name: comex-dashboard
     runtime: docker
-    plan: starter
+    plan: free
     envVars:
       - key: DATABASE_URL
         fromDatabase:
