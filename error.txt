@@ -1,0 +1,286 @@
+2026-05-26T22:51:42.271532703Z ==> Downloading cache...
+2026-05-26T22:51:42.30853864Z ==> Cloning from https://github.com/MatheusFonseca849/docker_postgre
+2026-05-26T22:51:43.24286331Z ==> Checking out commit 0bda513585444c7e52db7d4f19ba21606e035d8a in branch main
+2026-05-26T22:51:45.691323913Z ==> Downloaded 182MB in 3s. Extraction took 0s.
+2026-05-26T22:51:53.535831004Z #1 [internal] load build definition from Dockerfile
+2026-05-26T22:51:53.737463164Z #1 transferring dockerfile: 318B done
+2026-05-26T22:51:53.737476445Z #1 DONE 0.0s
+2026-05-26T22:51:53.737479345Z 
+2026-05-26T22:51:53.737482645Z #2 [internal] load metadata for docker.io/library/python:3.12-slim
+2026-05-26T22:51:53.898699689Z #2 ...
+2026-05-26T22:51:53.898715629Z 
+2026-05-26T22:51:53.898719859Z #3 [auth] library/python:pull render-prod/docker-mirror-repository/library/python:pull token for us-west1-docker.pkg.dev
+2026-05-26T22:51:53.898725009Z #3 DONE 0.0s
+2026-05-26T22:51:54.048946672Z 
+2026-05-26T22:51:54.048965692Z #2 [internal] load metadata for docker.io/library/python:3.12-slim
+2026-05-26T22:51:54.154057483Z #2 DONE 0.6s
+2026-05-26T22:51:54.327078455Z 
+2026-05-26T22:51:54.327106736Z #4 [internal] load .dockerignore
+2026-05-26T22:51:54.327112056Z #4 transferring context: 91B done
+2026-05-26T22:51:54.327119086Z #4 DONE 0.0s
+2026-05-26T22:51:54.327122206Z 
+2026-05-26T22:51:54.327125956Z #5 importing cache manifest from local:4448632211746249894
+2026-05-26T22:51:54.327129456Z #5 inferred cache manifest type: application/vnd.oci.image.manifest.v1+json done
+2026-05-26T22:51:54.327132527Z #5 DONE 0.0s
+2026-05-26T22:51:54.327135556Z 
+2026-05-26T22:51:54.327139007Z #6 [1/9] FROM docker.io/library/python:3.12-slim@sha256:090ba77e2958f6af52a5341f788b50b032dd4ca28377d2893dcf1ecbdfdfe203
+2026-05-26T22:51:54.327141857Z #6 resolve docker.io/library/python:3.12-slim@sha256:090ba77e2958f6af52a5341f788b50b032dd4ca28377d2893dcf1ecbdfdfe203 0.0s done
+2026-05-26T22:51:54.327144597Z #6 DONE 0.0s
+2026-05-26T22:51:54.327147027Z 
+2026-05-26T22:51:54.327149527Z #7 [internal] load build context
+2026-05-26T22:51:54.532159695Z #7 transferring context: 36.39MB 0.1s done
+2026-05-26T22:51:54.532184745Z #7 DONE 0.2s
+2026-05-26T22:51:54.532188506Z 
+2026-05-26T22:51:54.532192355Z #8 [2/9] WORKDIR /app
+2026-05-26T22:51:54.532195135Z #8 CACHED
+2026-05-26T22:51:54.532197716Z 
+2026-05-26T22:51:54.532201186Z #9 [3/9] COPY requirements.txt .
+2026-05-26T22:51:54.546760049Z #9 sha256:5b4d6ff92fc4e14e911b7753c954fac965d48c40fe1075758d284148ccace970 29.78MB / 29.78MB 0.2s
+2026-05-26T22:51:54.729504918Z #9 sha256:5b4d6ff92fc4e14e911b7753c954fac965d48c40fe1075758d284148ccace970 29.78MB / 29.78MB 0.2s done
+2026-05-26T22:51:54.729535029Z #9 extracting sha256:5b4d6ff92fc4e14e911b7753c954fac965d48c40fe1075758d284148ccace970
+2026-05-26T22:51:55.300569725Z #9 extracting sha256:5b4d6ff92fc4e14e911b7753c954fac965d48c40fe1075758d284148ccace970 0.7s done
+2026-05-26T22:51:55.486900486Z #9 sha256:4a9dde5cdde190bfa0a3ab17863a083e66ea9636b157638c315357dfa476ba76 1.29MB / 1.29MB 0.0s done
+2026-05-26T22:51:55.486924736Z #9 extracting sha256:4a9dde5cdde190bfa0a3ab17863a083e66ea9636b157638c315357dfa476ba76 0.1s done
+2026-05-26T22:51:55.737125096Z #9 sha256:e113665b194b20ba7e9093ef6a1a38edbaebbfb983c00e379a45a142a95a86ef 12.11MB / 12.11MB 0.1s done
+2026-05-26T22:51:55.737147677Z #9 extracting sha256:e113665b194b20ba7e9093ef6a1a38edbaebbfb983c00e379a45a142a95a86ef
+2026-05-26T22:51:56.128752392Z #9 extracting sha256:e113665b194b20ba7e9093ef6a1a38edbaebbfb983c00e379a45a142a95a86ef 0.5s done
+2026-05-26T22:51:56.239956356Z #9 sha256:07342fe545e640a2c4960e97ffe33a301cd8e61e0c4d4307d7ac66b6b8a9eb2d 250B / 250B done
+2026-05-26T22:51:56.240000867Z #9 extracting sha256:07342fe545e640a2c4960e97ffe33a301cd8e61e0c4d4307d7ac66b6b8a9eb2d 0.0s done
+2026-05-26T22:51:56.240018127Z #9 sha256:b0c093ee2148a55b400975a5dca5c1d1e43733af68326fad489d7dc5e193541d 79B / 79B done
+2026-05-26T22:51:56.240022737Z #9 extracting sha256:b0c093ee2148a55b400975a5dca5c1d1e43733af68326fad489d7dc5e193541d 0.0s done
+2026-05-26T22:51:56.240043908Z #9 sha256:90dbde6ede20f1f058e85d6f53a39a8470a92d2c5e238180a703a489bf9ec79d 170B / 170B done
+2026-05-26T22:51:56.427480101Z #9 extracting sha256:90dbde6ede20f1f058e85d6f53a39a8470a92d2c5e238180a703a489bf9ec79d 0.0s done
+2026-05-26T22:51:56.427498591Z #9 CACHED
+2026-05-26T22:51:56.427502342Z 
+2026-05-26T22:51:56.427506071Z #10 [4/9] RUN pip install --no-cache-dir -r requirements.txt
+2026-05-26T22:51:58.031695961Z #10 1.755 Collecting pandas (from -r requirements.txt (line 1))
+2026-05-26T22:51:58.172660586Z #10 1.796   Downloading pandas-3.0.3-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)
+2026-05-26T22:51:58.172684377Z #10 1.896 Collecting psycopg2-binary (from -r requirements.txt (line 2))
+2026-05-26T22:51:58.284675647Z #10 1.905   Downloading psycopg2_binary-2.9.12-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (4.9 kB)
+2026-05-26T22:51:58.284693128Z #10 1.943 Collecting streamlit (from -r requirements.txt (line 3))
+2026-05-26T22:51:58.284698498Z #10 1.952   Downloading streamlit-1.57.0-py3-none-any.whl.metadata (9.6 kB)
+2026-05-26T22:51:58.284703868Z #10 2.008 Collecting plotly (from -r requirements.txt (line 4))
+2026-05-26T22:51:58.444311629Z #10 2.017   Downloading plotly-6.7.0-py3-none-any.whl.metadata (8.6 kB)
+2026-05-26T22:51:58.488008681Z #10 2.211 Collecting numpy>=1.26.0 (from pandas->-r requirements.txt (line 1))
+2026-05-26T22:51:58.590120602Z #10 2.221   Downloading numpy-2.4.6-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+2026-05-26T22:51:58.590138693Z #10 2.238 Collecting python-dateutil>=2.8.2 (from pandas->-r requirements.txt (line 1))
+2026-05-26T22:51:58.590143613Z #10 2.247   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+2026-05-26T22:51:58.590148573Z #10 2.276 Collecting altair!=5.4.0,!=5.4.1,<7,>=4.0 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:58.590154893Z #10 2.285   Downloading altair-6.1.0-py3-none-any.whl.metadata (11 kB)
+2026-05-26T22:51:58.590159693Z #10 2.305 Collecting blinker<2,>=1.5.0 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:58.590164463Z #10 2.314   Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+2026-05-26T22:51:58.694833576Z #10 2.335 Collecting cachetools<8,>=5.5 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:58.694848956Z #10 2.344   Downloading cachetools-7.1.4-py3-none-any.whl.metadata (5.5 kB)
+2026-05-26T22:51:58.694853456Z #10 2.370 Collecting click<9,>=7.0 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:58.694857367Z #10 2.380   Downloading click-8.4.1-py3-none-any.whl.metadata (2.6 kB)
+2026-05-26T22:51:58.694861336Z #10 2.409 Collecting gitpython!=3.1.19,<4,>=3.0.7 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:58.694865457Z #10 2.418   Downloading gitpython-3.1.50-py3-none-any.whl.metadata (14 kB)
+2026-05-26T22:51:58.883993284Z #10 2.450 Collecting packaging>=20 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:58.884014445Z #10 2.459   Downloading packaging-26.2-py3-none-any.whl.metadata (3.5 kB)
+2026-05-26T22:51:58.884019505Z #10 2.607 Collecting pillow<13,>=7.1.0 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.062082469Z #10 2.617   Downloading pillow-12.2.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (8.8 kB)
+2026-05-26T22:51:59.062106889Z #10 2.639 Collecting pydeck<1,>=0.8.0b4 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.062112069Z #10 2.648   Downloading pydeck-0.9.2-py2.py3-none-any.whl.metadata (4.2 kB)
+2026-05-26T22:51:59.062116019Z #10 2.785 Collecting protobuf<8,>=3.20 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.163019176Z #10 2.795   Downloading protobuf-7.35.0-cp310-abi3-manylinux2014_x86_64.whl.metadata (595 bytes)
+2026-05-26T22:51:59.163042266Z #10 2.886 Collecting pyarrow>=7.0 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.282773563Z #10 2.896   Downloading pyarrow-24.0.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (3.0 kB)
+2026-05-26T22:51:59.282793454Z #10 2.924 Collecting requests<3,>=2.27 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.282800224Z #10 2.935   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+2026-05-26T22:51:59.282802904Z #10 2.955 Collecting tenacity<10,>=8.1.0 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.282805594Z #10 2.964   Downloading tenacity-9.1.4-py3-none-any.whl.metadata (1.2 kB)
+2026-05-26T22:51:59.282808084Z #10 2.976 Collecting toml<2,>=0.10.1 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.282810684Z #10 2.985   Downloading toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+2026-05-26T22:51:59.282813164Z #10 3.006 Collecting typing-extensions<5,>=4.10.0 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.405587802Z #10 3.015   Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+2026-05-26T22:51:59.405608472Z #10 3.045 Collecting starlette>=0.40.0 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.405613302Z #10 3.055   Downloading starlette-1.1.0-py3-none-any.whl.metadata (6.3 kB)
+2026-05-26T22:51:59.405616413Z #10 3.086 Collecting uvicorn>=0.30.0 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.405619813Z #10 3.096   Downloading uvicorn-0.48.0-py3-none-any.whl.metadata (6.7 kB)
+2026-05-26T22:51:59.405623093Z #10 3.129 Collecting httptools>=0.6.3 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.560229983Z #10 3.138   Downloading httptools-0.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (3.5 kB)
+2026-05-26T22:51:59.560243964Z #10 3.161 Collecting anyio>=4.0.0 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.560246954Z #10 3.170   Downloading anyio-4.13.0-py3-none-any.whl.metadata (4.5 kB)
+2026-05-26T22:51:59.560249994Z #10 3.187 Collecting python-multipart>=0.0.10 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.560252524Z #10 3.197   Downloading python_multipart-0.0.29-py3-none-any.whl.metadata (2.1 kB)
+2026-05-26T22:51:59.560254984Z #10 3.284 Collecting websockets>=12.0.0 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.697133987Z #10 3.293   Downloading websockets-16.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (6.8 kB)
+2026-05-26T22:51:59.697156287Z #10 3.307 Collecting itsdangerous>=2.1.2 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.697161397Z #10 3.316   Downloading itsdangerous-2.2.0-py3-none-any.whl.metadata (1.9 kB)
+2026-05-26T22:51:59.697165407Z #10 3.364 Collecting watchdog<7,>=2.1.5 (from streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.697169347Z #10 3.374   Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl.metadata (44 kB)
+2026-05-26T22:51:59.697173758Z #10 3.421 Collecting narwhals>=1.15.1 (from plotly->-r requirements.txt (line 4))
+2026-05-26T22:51:59.812414694Z #10 3.430   Downloading narwhals-2.21.2-py3-none-any.whl.metadata (16 kB)
+2026-05-26T22:51:59.812451814Z #10 3.453 Collecting jinja2 (from altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.812456914Z #10 3.462   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+2026-05-26T22:51:59.812461574Z #10 3.486 Collecting jsonschema>=3.0 (from altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->-r requirements.txt (line 3))
+2026-05-26T22:51:59.812476315Z #10 3.496   Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+2026-05-26T22:51:59.812479555Z #10 3.536 Collecting idna>=2.8 (from anyio>=4.0.0->streamlit->-r requirements.txt (line 3))
+2026-05-26T22:52:00.008481031Z #10 3.545   Downloading idna-3.16-py3-none-any.whl.metadata (6.4 kB)
+2026-05-26T22:52:00.008502162Z #10 3.569 Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.19,<4,>=3.0.7->streamlit->-r requirements.txt (line 3))
+2026-05-26T22:52:00.008505582Z #10 3.579   Downloading gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+2026-05-26T22:52:00.008508782Z #10 3.617 Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas->-r requirements.txt (line 1))
+2026-05-26T22:52:00.008511372Z #10 3.627   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+2026-05-26T22:52:00.008513922Z #10 3.732 Collecting charset_normalizer<4,>=2 (from requests<3,>=2.27->streamlit->-r requirements.txt (line 3))
+2026-05-26T22:52:00.126138056Z #10 3.741   Downloading charset_normalizer-3.4.7-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (40 kB)
+2026-05-26T22:52:00.126159536Z #10 3.778 Collecting urllib3<3,>=1.26 (from requests<3,>=2.27->streamlit->-r requirements.txt (line 3))
+2026-05-26T22:52:00.126163877Z #10 3.787   Downloading urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)
+2026-05-26T22:52:00.126166537Z #10 3.812 Collecting certifi>=2023.5.7 (from requests<3,>=2.27->streamlit->-r requirements.txt (line 3))
+2026-05-26T22:52:00.126169097Z #10 3.821   Downloading certifi-2026.5.20-py3-none-any.whl.metadata (2.5 kB)
+2026-05-26T22:52:00.126173617Z #10 3.850 Collecting h11>=0.8 (from uvicorn>=0.30.0->streamlit->-r requirements.txt (line 3))
+2026-05-26T22:52:00.226858249Z #10 3.859   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+2026-05-26T22:52:00.226876159Z #10 3.884 Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit->-r requirements.txt (line 3))
+2026-05-26T22:52:00.226879389Z #10 3.893   Downloading smmap-5.0.3-py3-none-any.whl.metadata (4.6 kB)
+2026-05-26T22:52:00.226882799Z #10 3.941 Collecting MarkupSafe>=2.0 (from jinja2->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->-r requirements.txt (line 3))
+2026-05-26T22:52:00.226885369Z #10 3.950   Downloading markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+2026-05-26T22:52:00.466130878Z #10 3.967 Collecting attrs>=22.2.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->-r requirements.txt (line 3))
+2026-05-26T22:52:00.466159649Z #10 3.976   Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+2026-05-26T22:52:00.466165499Z #10 3.995 Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->-r requirements.txt (line 3))
+2026-05-26T22:52:00.466169999Z #10 4.005   Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+2026-05-26T22:52:00.466173829Z #10 4.030 Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->-r requirements.txt (line 3))
+2026-05-26T22:52:00.466178009Z #10 4.039   Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+2026-05-26T22:52:00.601827957Z #10 4.325 Collecting rpds-py>=0.25.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<7,>=4.0->streamlit->-r requirements.txt (line 3))
+2026-05-26T22:52:00.722705837Z #10 4.335   Downloading rpds_py-0.30.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+2026-05-26T22:52:00.722726278Z #10 4.378 Downloading pandas-3.0.3-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (10.9 MB)
+2026-05-26T22:52:00.827945741Z #10 4.446    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.9/10.9 MB 221.0 MB/s eta 0:00:00
+2026-05-26T22:52:00.827976832Z #10 4.456 Downloading psycopg2_binary-2.9.12-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.3 MB)
+2026-05-26T22:52:00.827980402Z #10 4.468    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 391.0 MB/s eta 0:00:00
+2026-05-26T22:52:00.827983662Z #10 4.478 Downloading streamlit-1.57.0-py3-none-any.whl (9.2 MB)
+2026-05-26T22:52:00.827986162Z #10 4.504    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.2/9.2 MB 370.0 MB/s eta 0:00:00
+2026-05-26T22:52:00.827988702Z #10 4.514 Downloading plotly-6.7.0-py3-none-any.whl (9.9 MB)
+2026-05-26T22:52:00.827991662Z #10 4.542    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.9/9.9 MB 376.5 MB/s eta 0:00:00
+2026-05-26T22:52:00.827994392Z #10 4.551 Downloading altair-6.1.0-py3-none-any.whl (796 kB)
+2026-05-26T22:52:00.981115433Z #10 4.556    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 797.0/797.0 kB 397.7 MB/s eta 0:00:00
+2026-05-26T22:52:00.981137663Z #10 4.566 Downloading anyio-4.13.0-py3-none-any.whl (114 kB)
+2026-05-26T22:52:00.981140873Z #10 4.575 Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+2026-05-26T22:52:00.981143454Z #10 4.584 Downloading cachetools-7.1.4-py3-none-any.whl (16 kB)
+2026-05-26T22:52:00.981145854Z #10 4.594 Downloading click-8.4.1-py3-none-any.whl (116 kB)
+2026-05-26T22:52:00.981148414Z #10 4.603 Downloading gitpython-3.1.50-py3-none-any.whl (212 kB)
+2026-05-26T22:52:00.981151624Z #10 4.613 Downloading httptools-0.8.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (523 kB)
+2026-05-26T22:52:00.981154734Z #10 4.624 Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+2026-05-26T22:52:00.981157354Z #10 4.633 Downloading narwhals-2.21.2-py3-none-any.whl (451 kB)
+2026-05-26T22:52:00.981160774Z #10 4.643 Downloading numpy-2.4.6-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.6 MB)
+2026-05-26T22:52:01.184714152Z #10 4.704    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.6/16.6 MB 281.4 MB/s eta 0:00:00
+2026-05-26T22:52:01.184727133Z #10 4.714 Downloading packaging-26.2-py3-none-any.whl (100 kB)
+2026-05-26T22:52:01.184730163Z #10 4.724 Downloading pillow-12.2.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (7.1 MB)
+2026-05-26T22:52:01.184732473Z #10 4.745    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 384.6 MB/s eta 0:00:00
+2026-05-26T22:52:01.184735213Z #10 4.754 Downloading protobuf-7.35.0-cp310-abi3-manylinux2014_x86_64.whl (327 kB)
+2026-05-26T22:52:01.184737513Z #10 4.764 Downloading pyarrow-24.0.0-cp312-cp312-manylinux_2_28_x86_64.whl (48.9 MB)
+2026-05-26T22:52:01.288603309Z #10 4.908    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.9/48.9 MB 345.1 MB/s eta 0:00:00
+2026-05-26T22:52:01.28862887Z #10 4.917 Downloading pydeck-0.9.2-py2.py3-none-any.whl (11.3 MB)
+2026-05-26T22:52:01.28863275Z #10 4.952    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.3/11.3 MB 355.9 MB/s eta 0:00:00
+2026-05-26T22:52:01.28863617Z #10 4.962 Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+2026-05-26T22:52:01.28863904Z #10 4.971 Downloading python_multipart-0.0.29-py3-none-any.whl (29 kB)
+2026-05-26T22:52:01.2886544Z #10 4.981 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+2026-05-26T22:52:01.28865766Z #10 4.991 Downloading starlette-1.1.0-py3-none-any.whl (72 kB)
+2026-05-26T22:52:01.28866031Z #10 5.002 Downloading tenacity-9.1.4-py3-none-any.whl (28 kB)
+2026-05-26T22:52:01.288663241Z #10 5.012 Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+2026-05-26T22:52:01.390466355Z #10 5.022 Downloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+2026-05-26T22:52:01.390486036Z #10 5.031 Downloading uvicorn-0.48.0-py3-none-any.whl (71 kB)
+2026-05-26T22:52:01.390489576Z #10 5.042 Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+2026-05-26T22:52:01.390493316Z #10 5.053 Downloading websockets-16.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (184 kB)
+2026-05-26T22:52:01.390496716Z #10 5.063 Downloading certifi-2026.5.20-py3-none-any.whl (134 kB)
+2026-05-26T22:52:01.390504376Z #10 5.074 Downloading charset_normalizer-3.4.7-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (216 kB)
+2026-05-26T22:52:01.390507636Z #10 5.085 Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+2026-05-26T22:52:01.390510546Z #10 5.095 Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+2026-05-26T22:52:01.390513396Z #10 5.105 Downloading idna-3.16-py3-none-any.whl (74 kB)
+2026-05-26T22:52:01.390516536Z #10 5.114 Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+2026-05-26T22:52:01.626845436Z #10 5.124 Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+2026-05-26T22:52:01.626869737Z #10 5.133 Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+2026-05-26T22:52:01.626873767Z #10 5.143 Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
+2026-05-26T22:52:01.626877227Z #10 5.152 Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+2026-05-26T22:52:01.626881597Z #10 5.161 Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+2026-05-26T22:52:01.626885867Z #10 5.170 Downloading markupsafe-3.0.3-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+2026-05-26T22:52:01.626889287Z #10 5.180 Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+2026-05-26T22:52:01.626892507Z #10 5.190 Downloading rpds_py-0.30.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (394 kB)
+2026-05-26T22:52:01.626895157Z #10 5.200 Downloading smmap-5.0.3-py3-none-any.whl (24 kB)
+2026-05-26T22:52:01.739537231Z #10 5.463 Installing collected packages: websockets, watchdog, urllib3, typing-extensions, toml, tenacity, smmap, six, rpds-py, python-multipart, pyarrow, psycopg2-binary, protobuf, pillow, packaging, numpy, narwhals, MarkupSafe, itsdangerous, idna, httptools, h11, click, charset_normalizer, certifi, cachetools, blinker, attrs, uvicorn, requests, referencing, python-dateutil, plotly, jinja2, gitdb, anyio, starlette, pydeck, pandas, jsonschema-specifications, gitpython, jsonschema, altair, streamlit
+2026-05-26T22:52:18.169065149Z #10 21.89 Successfully installed MarkupSafe-3.0.3 altair-6.1.0 anyio-4.13.0 attrs-26.1.0 blinker-1.9.0 cachetools-7.1.4 certifi-2026.5.20 charset_normalizer-3.4.7 click-8.4.1 gitdb-4.0.12 gitpython-3.1.50 h11-0.16.0 httptools-0.8.0 idna-3.16 itsdangerous-2.2.0 jinja2-3.1.6 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 narwhals-2.21.2 numpy-2.4.6 packaging-26.2 pandas-3.0.3 pillow-12.2.0 plotly-6.7.0 protobuf-7.35.0 psycopg2-binary-2.9.12 pyarrow-24.0.0 pydeck-0.9.2 python-dateutil-2.9.0.post0 python-multipart-0.0.29 referencing-0.37.0 requests-2.34.2 rpds-py-0.30.0 six-1.17.0 smmap-5.0.3 starlette-1.1.0 streamlit-1.57.0 tenacity-9.1.4 toml-0.10.2 typing-extensions-4.15.0 urllib3-2.7.0 uvicorn-0.48.0 watchdog-6.0.0 websockets-16.0
+2026-05-26T22:52:18.403274406Z #10 21.89 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+2026-05-26T22:52:18.403303187Z #10 21.98 
+2026-05-26T22:52:18.403307687Z #10 21.98 [notice] A new release of pip is available: 25.0.1 -> 26.1.1
+2026-05-26T22:52:18.403311597Z #10 21.98 [notice] To update, run: pip install --upgrade pip
+2026-05-26T22:52:23.564777634Z #10 DONE 27.3s
+2026-05-26T22:52:23.717784631Z 
+2026-05-26T22:52:23.717805792Z #11 [5/9] COPY etl.py dashboard.py ./
+2026-05-26T22:52:23.74053685Z #11 DONE 0.2s
+2026-05-26T22:52:23.89263783Z 
+2026-05-26T22:52:23.892681791Z #12 [6/9] COPY data/ ./data/
+2026-05-26T22:52:23.906224884Z #12 DONE 0.2s
+2026-05-26T22:52:24.073738725Z 
+2026-05-26T22:52:24.073764175Z #13 [7/9] COPY .streamlit/ ./.streamlit/
+2026-05-26T22:52:24.073769195Z #13 DONE 0.0s
+2026-05-26T22:52:24.073773306Z 
+2026-05-26T22:52:24.073778126Z #14 [8/9] COPY start.sh .
+2026-05-26T22:52:24.073782206Z #14 DONE 0.0s
+2026-05-26T22:52:24.073785926Z 
+2026-05-26T22:52:24.073789746Z #15 [9/9] RUN chmod +x start.sh
+2026-05-26T22:52:24.073793586Z #15 DONE 0.1s
+2026-05-26T22:52:24.22760312Z 
+2026-05-26T22:52:24.227631481Z #16 exporting to image
+2026-05-26T22:52:24.227636671Z #16 exporting layers
+2026-05-26T22:52:27.213895968Z #16 exporting layers 3.1s done
+2026-05-26T22:52:27.356529286Z #16 exporting manifest sha256:fa90907b6f40ddbde9ae2322a894c5590e32b91625f48c4e8f0224e0f0ac1a24 done
+2026-05-26T22:52:27.356550847Z #16 exporting config sha256:439976355d7783ba1c96d6aa437898159bf7a3e4eaca9eecac1b1744676459cf done
+2026-05-26T22:52:27.356556767Z #16 pushing layers
+2026-05-26T22:52:28.061851051Z #16 ...
+2026-05-26T22:52:28.061874031Z 
+2026-05-26T22:52:28.061880021Z #17 exporting cache to client directory
+2026-05-26T22:52:28.061884701Z #17 sending cache export 0.6s done
+2026-05-26T22:52:28.061890061Z #17 writing cache image manifest sha256:735c4db4f3a877491dec2a2592cc64e1a1dc265d41f3e4153a89c9a367f62b06 done
+2026-05-26T22:52:28.061898282Z #17 DONE 0.7s
+2026-05-26T22:52:28.212086863Z 
+2026-05-26T22:52:28.212115143Z #16 exporting to image
+2026-05-26T22:52:33.524587055Z #16 pushing layers 6.3s done
+2026-05-26T22:52:33.524614485Z #16 pushing manifest for image-registry-v2.aws-us-west-2-7.internal.render.com/srv-d8b2256l51nc73993cn0:bld-d8b27js0v64s73aajkog@sha256:fa90907b6f40ddbde9ae2322a894c5590e32b91625f48c4e8f0224e0f0ac1a24
+2026-05-26T22:52:33.633734747Z #16 pushing manifest for image-registry-v2.aws-us-west-2-7.internal.render.com/srv-d8b2256l51nc73993cn0:bld-d8b27js0v64s73aajkog@sha256:fa90907b6f40ddbde9ae2322a894c5590e32b91625f48c4e8f0224e0f0ac1a24 0.1s done
+2026-05-26T22:52:33.633750098Z #16 DONE 9.6s
+2026-05-26T22:52:41.335275221Z ==> Deploying...
+2026-05-26T22:52:41.397268281Z ==> Setting WEB_CONCURRENCY=1 by default, based on available CPUs in the instance
+2026-05-26T22:52:48.105337173Z ========================================
+2026-05-26T22:52:48.105357483Z   Running ETL pipeline...
+2026-05-26T22:52:48.105361613Z ========================================
+2026-05-26T22:52:51.467843216Z ============================================================
+2026-05-26T22:52:51.467870506Z COMEX 2025 — ETL Pipeline
+2026-05-26T22:52:51.467873886Z ============================================================
+2026-05-26T22:52:51.467876567Z 
+2026-05-26T22:52:51.467879707Z [1/4] Connecting to PostgreSQL...
+2026-05-26T22:52:51.594564158Z   Connected!
+2026-05-26T22:52:51.594584388Z 
+2026-05-26T22:52:51.594589128Z [2/4] Creating tables...
+2026-05-26T22:53:29.892696681Z   Tables created!
+2026-05-26T22:53:29.892724792Z 
+2026-05-26T22:53:29.892733292Z [3/4] Loading dimension tables...
+2026-05-26T22:53:29.897987005Z   Read VIA.csv (utf-8, 17 rows)
+2026-05-26T22:53:29.903588615Z   -> tb_via: 17 rows inserted
+2026-05-26T22:53:29.908960461Z   Read URF.csv (latin-1, 280 rows)
+2026-05-26T22:53:30.067454313Z   -> tb_urf: 280 rows inserted
+2026-05-26T22:53:30.069173566Z   Read UF.csv (latin-1, 34 rows)
+2026-05-26T22:53:30.156480735Z   -> tb_estado: 34 rows inserted
+2026-05-26T22:53:30.168934279Z   Read UF_MUN.csv (latin-1, 5570 rows)
+2026-05-26T22:53:35.290698326Z   -> tb_municipio: 5570 rows inserted
+2026-05-26T22:53:35.293741363Z   Read NCM_UNIDADE.csv (utf-8, 15 rows)
+2026-05-26T22:53:35.299082927Z   -> tb_unidade: 15 rows inserted
+2026-05-26T22:53:36.056794243Z   Read NCM.csv (latin-1, 13742 rows)
+2026-05-26T22:53:45.109986176Z ==> No open ports detected, continuing to scan...
+2026-05-26T22:53:45.180820271Z ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+2026-05-26T22:53:48.191122996Z   -> tb_ncm: 13742 rows inserted
+2026-05-26T22:53:48.19800917Z   Read PAIS.csv (utf-8, fixing mojibake, 281 rows)
+2026-05-26T22:53:48.198386289Z /app/etl.py:205: Pandas4Warning: For backward compatibility, 'str' dtypes are included by select_dtypes when 'object' dtype is specified. This behavior is deprecated and will be removed in a future version. Explicitly pass 'str' to `include` to select them, or to `exclude` to remove them and silence this warning.
+2026-05-26T22:53:48.19840132Z See https://pandas.pydata.org/docs/user_guide/migration-3-strings.html#string-migration-select-dtypes for details on how to write code that works with pandas 2 and 3.
+2026-05-26T22:53:48.19840796Z   str_cols = df.select_dtypes(include='object').columns
+2026-05-26T22:53:48.371955871Z   -> tb_pais: 281 rows inserted
+2026-05-26T22:53:48.374250539Z   Read PAIS_BLOCO.csv (utf-8, fixing mojibake, 322 rows)
+2026-05-26T22:53:48.4552769Z /app/etl.py:205: Pandas4Warning: For backward compatibility, 'str' dtypes are included by select_dtypes when 'object' dtype is specified. This behavior is deprecated and will be removed in a future version. Explicitly pass 'str' to `include` to select them, or to `exclude` to remove them and silence this warning.
+2026-05-26T22:53:48.455303581Z See https://pandas.pydata.org/docs/user_guide/migration-3-strings.html#string-migration-select-dtypes for details on how to write code that works with pandas 2 and 3.
+2026-05-26T22:53:48.455308941Z   str_cols = df.select_dtypes(include='object').columns
+2026-05-26T22:53:48.463882547Z   -> tb_bloco: 11 rows inserted
+2026-05-26T22:53:48.663250398Z   ⚠ Skipped 6 pais_bloco rows (invalid FK references)
+2026-05-26T22:53:48.674975304Z   -> tb_pais_bloco: 316 rows inserted
+2026-05-26T22:53:48.675053166Z 
+2026-05-26T22:53:48.675070886Z [4/4] Loading fact tables...
+2026-05-26T22:53:50.666314292Z   Read Exportacoes_reduzidos.csv (utf-8, 200000 rows)
+2026-05-26T22:54:45.805548355Z ==> No open ports detected, continuing to scan...
+2026-05-26T22:54:45.864102884Z ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+2026-05-26T22:55:46.423239107Z ==> No open ports detected, continuing to scan...
+2026-05-26T22:55:46.517025389Z ==> Docs on specifying a port: https://render.com/docs/web-services#port-binding

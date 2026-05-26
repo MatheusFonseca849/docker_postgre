@@ -44,8 +44,11 @@ def get_connection():
 
 
 def query_df(sql):
-    conn = get_connection()
-    return pd.read_sql(sql, conn)
+    try:
+        conn = get_connection()
+        return pd.read_sql(sql, conn)
+    except Exception:
+        return pd.DataFrame()
 
 
 def format_brl(value):

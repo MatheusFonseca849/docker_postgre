@@ -1,10 +1,9 @@
 #!/bin/bash
-set -e
 
 echo "========================================"
-echo "  Running ETL pipeline..."
+echo "  Starting ETL in background..."
 echo "========================================"
-python etl.py
+python etl.py &
 
 echo "========================================"
 echo "  Starting Streamlit on port ${PORT:-8501}..."
