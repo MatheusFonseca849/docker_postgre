@@ -156,7 +156,7 @@ q3 = query_df("""
     ORDER BY total DESC
     LIMIT 5
 """)
-q3['label'] = q3['id_ncm'].astype(str) + ' - ' + q3['produto'].str[:60]
+q3['label'] = q3['id_ncm'].astype(str) + ' - ' + q3['produto'].astype(str).str[:60]
 
 fig3 = px.bar(q3, x='total', y='label', orientation='h',
               labels={'total': 'Valor FOB (US$)', 'label': 'NCM — Produto'},
@@ -188,7 +188,7 @@ with col1:
         st.metric("Valor Total (FOB)", format_brl(q4.iloc[0]['total']))
         st.write(f"**Descrição:** {q4.iloc[0]['produto']}")
 with col2:
-    q4['label'] = q4['id_ncm'].astype(str) + ' - ' + q4['produto'].str[:50]
+    q4['label'] = q4['id_ncm'].astype(str) + ' - ' + q4['produto'].astype(str).str[:50]
     fig4 = px.bar(q4, x='total', y='label', orientation='h',
                   labels={'total': 'Valor FOB (US$)', 'label': 'NCM — Produto'},
                   color='total', color_continuous_scale='reds')

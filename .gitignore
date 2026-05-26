@@ -10,3 +10,5 @@ postgres_data/
 # Large original CSVs (the reduced ones are small enough)
 data/EXP_2025.csv
 data/IMP_2025.csv
+
+error.txt
